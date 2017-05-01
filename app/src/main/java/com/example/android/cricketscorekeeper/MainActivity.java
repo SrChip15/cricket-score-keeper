@@ -8,7 +8,9 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     int scoreTeamA = 0;
+    int wicketsTeamA = 0;
     int scoreTeamB = 0;
+    int wicketsTeamB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,12 +75,16 @@ public class MainActivity extends AppCompatActivity {
     * This method displays the team's score on screen
     */
     public void displayForTeamA() {
-        TextView scoreTextView = (TextView) findViewById(R.id.team_a_score);
-        scoreTextView.setText(String.valueOf(scoreTeamA));
+        TextView runsTextView = (TextView) findViewById(R.id.team_a_runs);
+        TextView wicketsTextView = (TextView) findViewById(R.id.team_a_wickets);
+        runsTextView.setText(String.valueOf(scoreTeamA));
+        wicketsTextView.setText(String.valueOf(wicketsTeamA));
      }
 
      public void displayForTeamB() {
-         TextView scoreTextView = (TextView) findViewById(R.id.team_b_score);
-         scoreTextView.setText(String.valueOf(scoreTeamB));
+         TextView runsTextView = (TextView) findViewById(R.id.team_b_runs);
+         TextView wicketsTextView = (TextView) findViewById(R.id.team_b_wickets);
+         runsTextView.setText(String.valueOf(scoreTeamB));
+         wicketsTextView.setText(String.valueOf(wicketsTeamB));
      }
 }
