@@ -42,7 +42,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="right"
-                    android:text="@string/score"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="#000000"
                     android:textSize="32sp" />
 
@@ -63,7 +63,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="left"
-                    android:text="@string/score"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="#000000"
                     android:textSize="32sp" />
 
@@ -75,8 +75,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="scoreThreeTeamA"
-                android:text="@string/three_pointer" />
+                android:onClick="sixRunsForTeamA"
+                android:text="@string/six_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -84,8 +84,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="scoreTwoTeamA"
-                android:text="@string/two_points" />
+                android:onClick="fourRunsForTeamA"
+                android:text="@string/four_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -93,8 +93,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="scoreOneTeamA"
-                android:text="@string/free_throw" />
+                android:onClick="twoRunsForTeamA"
+                android:text="@string/two_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -102,8 +102,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="singleTeamA"
-                android:text="@string/singles" />
+                android:onClick="singleRunForTeamA"
+                android:text="@string/single_run" />
 
         </LinearLayout>
 
@@ -143,7 +143,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="right"
-                    android:text="@string/score"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="#000000"
                     android:textSize="32sp" />
 
@@ -164,7 +164,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="left"
-                    android:text="@string/score"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="#000000"
                     android:textSize="32sp" />
 
@@ -176,8 +176,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="scoreThreeTeamB"
-                android:text="@string/three_pointer" />
+                android:onClick="sixRunsForTeamB"
+                android:text="@string/six_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -185,8 +185,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="scoreTwoTeamB"
-                android:text="@string/two_points" />
+                android:onClick="fourRunsForTeamB"
+                android:text="@string/four_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -194,8 +194,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="scoreOneTeamB"
-                android:text="@string/free_throw" />
+                android:onClick="twoRunsForTeamB"
+                android:text="@string/two_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -203,8 +203,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:onClick="singleTeamB"
-                android:text="@string/singles" />
+                android:onClick="singleRunForTeamB"
+                android:text="@string/single_run" />
 
         </LinearLayout>
 
@@ -245,7 +245,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -274,7 +274,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -303,7 +303,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -332,7 +332,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -374,7 +374,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -403,7 +403,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -432,7 +432,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 
@@ -461,7 +461,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
                     android:textSize="24dp" />
 

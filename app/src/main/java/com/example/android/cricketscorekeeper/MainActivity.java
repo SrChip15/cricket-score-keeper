@@ -32,12 +32,12 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Increase the score for Team A by 3 points
      */
-    public void scoreThreeTeamA(View v) {
+    public void sixRunsForTeamA(View v) {
         scoreTeamA += 6;
         displayForTeamA();
     }
 
-    public void scoreThreeTeamB(View v) {
+    public void sixRunsForTeamB(View v) {
         scoreTeamB += 6;
         displayForTeamB();
     }
@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Increase the score for Team A by 2 points
      */
-    public void scoreTwoTeamA(View v) {
+    public void fourRunsForTeamA(View v) {
         scoreTeamA += 4;
         displayForTeamA();
     }
 
-    public void scoreTwoTeamB(View v) {
+    public void fourRunsForTeamB(View v) {
         scoreTeamB += 4;
         displayForTeamB();
     }
@@ -58,22 +58,22 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Increase the score for Team A by 1 point
      */
-    public void scoreOneTeamA(View v) {
+    public void twoRunsForTeamA(View v) {
         scoreTeamA += 2;
         displayForTeamA();
     }
 
-    public void scoreOneTeamB(View v) {
+    public void twoRunsForTeamB(View v) {
         scoreTeamB += 2;
         displayForTeamB();
     }
 
-    public void singleTeamA(View v) {
+    public void singleRunForTeamA(View v) {
         scoreTeamA += 1;
         displayForTeamA();
     }
 
-    public void singleTeamB(View v) {
+    public void singleRunForTeamB(View v) {
         scoreTeamB += 1;
         displayForTeamB();
     }
