@@ -247,7 +247,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -276,7 +276,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -305,7 +305,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -334,7 +334,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -376,7 +376,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -405,7 +405,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -434,7 +434,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -463,7 +463,7 @@
                     android:gravity="center"
                     android:text="@string/runs_or_wickets"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
