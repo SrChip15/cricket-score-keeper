@@ -23,13 +23,80 @@ public class MainActivity extends AppCompatActivity {
 	int teamBBowler3 = 0;
 	int teamBBowler4 = 0;
 
+	private static final String TEAM_A_SCORE = "scoreTeamA";
+	private static final String TEAM_B_SCORE = "scoreTeamB";
+	private static final String TEAM_A_WICKETS = "wicketsTeamA";
+	private static final String TEAM_B_WICKETS = "wicketsTeamB";
+	private static final String TEAM_A_BOWLER_1 = "teamABowler1";
+	private static final String TEAM_A_BOWLER_2 = "teamABowler2";
+	private static final String TEAM_A_BOWLER_3 = "teamABowler3";
+	private static final String TEAM_A_BOWLER_4 = "teamABowler4";
+	private static final String TEAM_B_BOWLER_1 = "teamBBowler1";
+	private static final String TEAM_B_BOWLER_2 = "teamBBowler2";
+	private static final String TEAM_B_BOWLER_3 = "teamBBowler3";
+	private static final String TEAM_B_BOWLER_4 = "teamBBowler4";
+
 	/** This app displays an score form to track a cricket match's score */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		if (savedInstanceState != null) {
+			scoreTeamA = savedInstanceState.getInt(TEAM_A_SCORE);
+			scoreTeamB = savedInstanceState.getInt(TEAM_B_SCORE);
+
+			wicketsTeamA = savedInstanceState.getInt(TEAM_A_WICKETS);
+			wicketsTeamB = savedInstanceState.getInt(TEAM_B_WICKETS);
+
+			teamABowler1 = savedInstanceState.getInt(TEAM_A_BOWLER_1);
+			teamABowler2 = savedInstanceState.getInt(TEAM_A_BOWLER_2);
+			teamABowler3 = savedInstanceState.getInt(TEAM_A_BOWLER_3);
+			teamABowler4 = savedInstanceState.getInt(TEAM_A_BOWLER_4);
+
+			teamBBowler1 = savedInstanceState.getInt(TEAM_B_BOWLER_1);
+			teamBBowler2 = savedInstanceState.getInt(TEAM_B_BOWLER_2);
+			teamBBowler3 = savedInstanceState.getInt(TEAM_B_BOWLER_3);
+			teamBBowler4 = savedInstanceState.getInt(TEAM_B_BOWLER_4);
+		}
+
 		displayForTeamA();
-		displayForTeamA();
+		displayForTeamB();
+
+		displayForTeamABowler1();
+		displayForTeamABowler2();
+		displayForTeamABowler3();
+		displayForTeamABowler4();
+
+		displayForTeamBBowler1();
+		displayForTeamBBowler2();
+		displayForTeamBBowler3();
+		displayForTeamBBowler4();
+	}
+
+	@Override
+	protected void onSaveInstanceState(Bundle saveCurrentState) {
+		// Score
+		saveCurrentState.putInt(TEAM_A_SCORE, scoreTeamA);
+		saveCurrentState.putInt(TEAM_B_SCORE, scoreTeamB);
+
+		// Wickets
+		saveCurrentState.putInt(TEAM_A_WICKETS, wicketsTeamA);
+		saveCurrentState.putInt(TEAM_B_WICKETS, wicketsTeamB);
+
+		// Individual bowler scores
+		// Team A
+		saveCurrentState.putInt(TEAM_A_BOWLER_1, teamABowler1);
+		saveCurrentState.putInt(TEAM_A_BOWLER_2, teamABowler2);
+		saveCurrentState.putInt(TEAM_A_BOWLER_3, teamABowler3);
+		saveCurrentState.putInt(TEAM_A_BOWLER_4, teamABowler4);
+
+		// Team B
+		saveCurrentState.putInt(TEAM_B_BOWLER_1, teamBBowler1);
+		saveCurrentState.putInt(TEAM_B_BOWLER_2, teamBBowler2);
+		saveCurrentState.putInt(TEAM_B_BOWLER_3, teamBBowler3);
+		saveCurrentState.putInt(TEAM_B_BOWLER_4, teamBBowler4);
+
+		super.onSaveInstanceState(saveCurrentState);
 	}
 
 	/** This method is invoked when team A's striking batsman hits a sixer (similar to home run) */
