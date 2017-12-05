@@ -46,7 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-light"
-                        android:gravity="right"
+                        android:gravity="end"
                         android:text="@string/runs_or_wickets"
                         android:textColor="#000000"
                         android:textSize="32sp"/>
@@ -57,7 +57,7 @@
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-light"
                         android:gravity="center_horizontal"
-                        android:text="/"
+                        android:text="@string/score_divider"
                         android:textColor="#000000"
                         android:textSize="40sp"/>
 
@@ -67,7 +67,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-light"
-                        android:gravity="left"
+                        android:gravity="start"
                         android:text="@string/runs_or_wickets"
                         android:textColor="#000000"
                         android:textSize="32sp"/>
@@ -147,7 +147,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-light"
-                        android:gravity="right"
+                        android:gravity="end"
                         android:text="@string/runs_or_wickets"
                         android:textColor="#000000"
                         android:textSize="32sp"/>
@@ -158,7 +158,7 @@
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-light"
                         android:gravity="center_horizontal"
-                        android:text="/"
+                        android:text="@string/score_divider"
                         android:textColor="#000000"
                         android:textSize="40sp"/>
 
@@ -168,7 +168,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-light"
-                        android:gravity="left"
+                        android:gravity="start"
                         android:text="@string/runs_or_wickets"
                         android:textColor="#000000"
                         android:textSize="32sp"/>
@@ -219,8 +219,8 @@
             android:id="@+id/bowling_figures"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:layout_below="@id/batting_view"
+            android:layout_marginTop="24dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -242,7 +242,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamABowler1Wickets"
-                        android:text="Bowler 1"/>
+                        android:text="@string/bowler_1_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_a_bowler_1"
@@ -271,7 +271,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamABowler2Wickets"
-                        android:text="Bowler 2"/>
+                        android:text="@string/bowler_2_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_a_bowler_2"
@@ -300,7 +300,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamABowler3Wickets"
-                        android:text="Bowler 3"/>
+                        android:text="@string/bowler_3_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_a_bowler_3"
@@ -329,7 +329,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamABowler4Wickets"
-                        android:text="Bowler 4"/>
+                        android:text="@string/bowler_4_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_a_bowler_4"
@@ -371,7 +371,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamBBowler1Wickets"
-                        android:text="Bowler 1"/>
+                        android:text="@string/bowler_1_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_b_bowler_1"
@@ -400,7 +400,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamBBowler2Wickets"
-                        android:text="Bowler 2"/>
+                        android:text="@string/bowler_2_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_b_bowler_2"
@@ -429,7 +429,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamBBowler3Wickets"
-                        android:text="Bowler 3"/>
+                        android:text="@string/bowler_3_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_b_bowler_3"
@@ -458,7 +458,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="2"
                         android:onClick="teamBBowler4Wickets"
-                        android:text="Bowler 4"/>
+                        android:text="@string/bowler_4_label"/>
 
                     <TextView
                         android:id="@+id/wickets_taken_team_b_bowler_4"
@@ -479,12 +479,12 @@
         </LinearLayout>
 
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/bowling_figures"
-            android:layout_marginTop="24dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="4dp"
+            android:layout_marginTop="40dp"
             android:onClick="resetScore"
             android:text="@string/reset"/>
 

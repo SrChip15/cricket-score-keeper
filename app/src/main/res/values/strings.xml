@@ -8,4 +8,9 @@
     <string name="two_runs">+Doubles</string>
     <string name="single_run">Singles</string>
     <string name="reset">reset</string>
+    <string name="score_divider">/</string>
+    <string name="bowler_1_label">Bowler 1</string>
+    <string name="bowler_2_label">Bowler 2</string>
+    <string name="bowler_3_label">Bowler 3</string>
+    <string name="bowler_4_label">Bowler 4</string>
 </resources>
