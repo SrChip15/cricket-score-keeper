@@ -75,6 +75,7 @@
                 </LinearLayout>
 
                 <Button
+                    android:id="@+id/scoreSixRunsTeamA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -84,6 +85,7 @@
                     android:text="@string/six_runs"/>
 
                 <Button
+                    android:id="@+id/scoreFourRunsTeamA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -93,6 +95,7 @@
                     android:text="@string/four_runs"/>
 
                 <Button
+                    android:id="@+id/scoreDoublesTeamA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -102,6 +105,7 @@
                     android:text="@string/two_runs"/>
 
                 <Button
+                    android:id="@+id/scoreSinglesTeamA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -176,6 +180,7 @@
                 </LinearLayout>
 
                 <Button
+                    android:id="@+id/scoreSixRunsTeamB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -185,6 +190,7 @@
                     android:text="@string/six_runs"/>
 
                 <Button
+                    android:id="@+id/scoreFourRunsTeamB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -194,6 +200,7 @@
                     android:text="@string/four_runs"/>
 
                 <Button
+                    android:id="@+id/scoreDoublesTeamB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -203,6 +210,7 @@
                     android:text="@string/two_runs"/>
 
                 <Button
+                    android:id="@+id/scoreSinglesTeamB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
