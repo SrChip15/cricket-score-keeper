@@ -245,6 +245,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler1TeamA"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -274,6 +275,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler2TeamA"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -303,6 +305,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler3TeamA"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -332,6 +335,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler4TeamA"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -374,6 +378,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler1TeamB"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -403,6 +408,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler2TeamB"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -432,6 +438,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler3TeamB"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -461,6 +468,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/bowler4TeamB"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
